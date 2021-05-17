@@ -1,0 +1,59 @@
+.about {
+  margin-top: 120px;
+  padding: 0 100px 0 28px;
+    
+  &__wrapper {
+  margin: 0 auto;
+  width:1040px;
+ 
+  background: #ffffff;
+  display: grid;
+  grid-template-columns: 400px  1fr;
+  grid-column-gap: 70px
+  
+ }
+
+  &__picture {
+    width: 100%;
+  }
+&__mein_wrapper {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  
+}
+  
+  &__mein_content {
+    width: 570px;
+    text-align: left;
+    padding: 0 5px;
+   
+  }
+  &__experiance {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(260px, 0.5fr));
+    grid-column-gap: 50px;
+    font-size: 14px;
+    line-height: 21px;
+
+
+  }
+     
+
+  &__experiance-content {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+    }
+  &__experiance_subtitle {
+  font-weight: bold;
+
+}
+
+ 
+&__title {
+  position: relative;
+  @include before_circle;
+  padding-left: 10px;
+  z-index: 2;
+}
+}
