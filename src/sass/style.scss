@@ -13,7 +13,16 @@
 .container {
   width: 1140px;
   margin: 0 auto;
+  font-size: 14px;
 }
+
+.divider {
+  width: 60px;
+  height: 3px;
+  background-color: $main-color;
+  margin-top: 25px;
+}
+
 
 @import "blocks/promo";
 @import "blocks/title";
